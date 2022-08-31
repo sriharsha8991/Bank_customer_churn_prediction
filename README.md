@@ -65,6 +65,8 @@ LogisticRegression	79.540878
 
 #### We are getting maximum accuracy from Naive Bayes And SVM
 
+trying to Improve the accuracy of the model......
+
 
 
 
