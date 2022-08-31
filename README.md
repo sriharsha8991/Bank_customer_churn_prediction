@@ -52,10 +52,15 @@ Applied different Classification algorithms which are given below along with the
 
 	                  Accuracy
 Naive Bayes 	      80.306081
+
 KNN         	      76.318969
+
 SVM	                80.306081
+
 Random_forest	      79.540878
+
 DecisionTree	      78.453484
+
 LogisticRegression	79.540878
 
 #### We are getting maximum accuracy from Naive Bayes And SVM
