@@ -8,7 +8,7 @@
 * Data preprocessing is an important step in any machine learning project. In this project, the dataset was preprocessed to handle missing values, encode categorical variables, and normalize numerical variables. Feature selection was also performed to select the most important features for the prediction task.
 
 > ## Machine Learning Algorithms
-* Several machine learning algorithms were applied to the preprocessed dataset, including Logistic Regression, Decision Tree, Random Forest, Support Vector Machines (SVM), and Naive Bayes. After evaluating the performance of these algorithms, SVM and Naive Bayes were chosen as the best performers with a high accuracy.
+* Several machine learning algorithms were applied to the preprocessed dataset, including Logistic Regression, Decision Tree, Random Forest, Support Vector Machines (SVM), and Naive Bayes. After evaluating the performance of these algorithms, **SVM and Naive Bayes** were chosen as the best performers with a high accuracy.
 
 > ## Conclusion
 * In this project, I applied various machine learning algorithms to predict bank customer churn. After preprocessing the dataset and selecting the most important features, I found that SVM and Naive Bayes algorithms achieved the highest accuracy. The results of this project can be used by banks to identify customers who are likely to leave, and take proactive measures to retain them.
