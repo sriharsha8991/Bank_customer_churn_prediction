@@ -1,78 +1,19 @@
-# Bank_customer_churn_prediction
-Every bank wants to hold there customers for sustaining their business so the ABC Multinational bank.
-Below is the customer data of account holders at ABC Multinational Bank and ""the aim of the data will be predicting the Customer Churn.""
+> ## Bank Customer Churn Prediction
+This project is focused on predicting bank customer churn using machine learning algorithms. The aim of this project is to predict if a customer is likely to leave the bank or not, based on various features provided in the dataset. The dataset was preprocessed and various machine learning algorithms were applied to it. SVM and Naive Bayes algorithms were the best performers, achieving a high accuracy.
 
-Features used:
+> ## Dataset
+The dataset used for this project is the Bank Customer Churn Prediction dataset. The dataset contains information about bank customers, such as their credit score, age, balance, and other relevant information. It also contains a target variable that indicates whether the customer has churned or not.
 
-customer_id, unused variable.
-credit_score, used as input.
-country, used as input.
-gender, used as input.
-age, used as input.
-tenure, used as input.
-balance, used as input.
-products_number, used as input.
-credit_card, used as input.
-active_member, used as input.
-estimated_salary, used as input.
-churn, used as the target. 1 if the client has left the bank during some period or 0 if he/she has not.
+> ## Data Preprocessing
+Data preprocessing is an important step in any machine learning project. In this project, the dataset was preprocessed to handle missing values, encode categorical variables, and normalize numerical variables. Feature selection was also performed to select the most important features for the prediction task.
 
-the dataset consists 12 columns and 9930 rows
+> ## Machine Learning Algorithms
+Several machine learning algorithms were applied to the preprocessed dataset, including Logistic Regression, Decision Tree, Random Forest, Support Vector Machines (SVM), and Naive Bayes. After evaluating the performance of these algorithms, SVM and Naive Bayes were chosen as the best performers with a high accuracy.
 
-Done Exploratory Data analysis to find out the important features and their relations
+> ## Conclusion
+In this project, I applied various machine learning algorithms to predict bank customer churn. After preprocessing the dataset and selecting the most important features, I found that SVM and Naive Bayes algorithms achieved the highest accuracy. The results of this project can be used by banks to identify customers who are likely to leave, and take proactive measures to retain them.
 
-Used plots like KDE plot and pair plots to understand the relations between features
-
-used the following libraries in the Data Pre-Processing Section
-*Numpy
-*Pandas
-*seaborn
-*Matplotlib
-
-By understanding the problem statement properly we can understand it is a classification problem
-## Classification_problem
-
-So We have to change all the Object values to other form of numerical values
-
-#### object_values -> Country
-France  -> 1
-Spain   -> 2
-Germany -> 3
-
-#### Similarly for Gender 
-Male  -> 1
-Female -> 0
-
-Hence we changed all our features into some or other form of numericals which would be suitable 
-for classification problem.
-
-### Modeling
-Used Sklearn libraries for machinelearning modeling
-Applied different Classification algorithms which are given below along with their accuracy
-
-	                  Accuracy
-Naive Bayes 	      80.306081
-
-KNN         	      76.318969
-
-SVM	                80.306081
-
-Random_forest	      79.540878
-
-DecisionTree	      78.453484
-
-LogisticRegression	79.540878
-
-#### We are getting maximum accuracy from Naive Bayes And SVM
-
-trying to Improve the accuracy of the model......
-
-
-
-
-
-
-
+Thank you for reading!
 
 
 
