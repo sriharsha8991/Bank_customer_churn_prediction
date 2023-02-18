@@ -17,7 +17,6 @@
   10. active_member	
   11. estimated_salary	
   12. churn (Target)
-![image](https://user-images.githubusercontent.com/91383946/219845449-fe1e0f87-1004-409b-a2a5-cb85f7fbe7be.png)
 
 
 > ## Data Preprocessing
