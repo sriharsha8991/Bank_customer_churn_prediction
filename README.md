@@ -4,6 +4,22 @@
 > ## Dataset
 * The dataset used for this project is the Bank Customer Churn Prediction dataset. The dataset contains information about bank customers, such as their credit score, age, balance, and other relevant information. It also contains a target variable that indicates whether the customer has churned or not.
 
+* #### Attributes of the Data set:
+  1. customer_id	
+  2. credit_score	
+  3. country	
+  4. gender	
+  5. age	
+  6. tenure	
+  7. balance	
+  8. products_number	
+  9. credit_card	
+  10. active_member	
+  11. estimated_salary	
+  12. churn (Target)
+![image](https://user-images.githubusercontent.com/91383946/219845449-fe1e0f87-1004-409b-a2a5-cb85f7fbe7be.png)
+
+
 > ## Data Preprocessing
 * Data preprocessing is an important step in any machine learning project. In this project, the dataset was preprocessed to handle missing values, encode categorical variables, and normalize numerical variables. Feature selection was also performed to select the most important features for the prediction task.
 
